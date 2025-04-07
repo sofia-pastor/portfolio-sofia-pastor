@@ -28,7 +28,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="navbar fixed-top navbar-expand-lg">
+    <nav className="navbar fixed-top navbar-expand-md">
       <div className="container-fluid">
         <button
           className="navbar-toggler"
