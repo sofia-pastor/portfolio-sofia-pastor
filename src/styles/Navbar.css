@@ -5,12 +5,14 @@
 .nav-link {
   opacity: 0.6;
   color: rgb(245, 245, 245);
+  margin: 0 15px 0 10px;
 }
 
 .name-navbar {
   color: rgb(245, 245, 245);
   font-size: 20px;
   line-height: 1;
+  margin-top: 1.5px;
 }
 
 .navbar .nav-link.active {
