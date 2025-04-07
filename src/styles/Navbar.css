@@ -1,23 +1,25 @@
 .navbar {
   background-color: var(--primary-color);
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .nav-link {
   opacity: 0.6;
   color: rgb(245, 245, 245);
-  margin: 0 15px 0 10px;
+  margin: 0px 15px 0 10px;
 }
 
 .name-navbar {
   color: rgb(245, 245, 245);
   font-size: 20px;
-  line-height: 1;
-  margin-top: 1.5px;
+  margin-top: -1px;
 }
 
 .navbar .nav-link.active {
   color: rgb(245, 245, 245);
   opacity: 1;
+  font-weight: 600;
 }
 
 .nav-link:hover {

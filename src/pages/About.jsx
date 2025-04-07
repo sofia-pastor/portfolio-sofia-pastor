@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 import Contact from "../components/Contact";
 import SkillsSection from "../components/SkillsSection";
 
@@ -5,6 +8,19 @@ import "../styles/About.css";
 import profilePhoto from "../assets/profile-img-2.png";
 
 export default function About() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const target = document.querySelector(location.hash);
+      if (target) {
+        setTimeout(() => {
+          target.scrollIntoView({ behavior: "smooth" });
+        }, 0);
+      }
+    }
+  }, [location]);
+
   return (
     <div className="About">
       <section className="about-me" id="about-me">
