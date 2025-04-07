@@ -1,0 +1,24 @@
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.nav-link {
+  opacity: 0.6;
+  color: rgb(245, 245, 245);
+}
+
+.name-navbar {
+  color: rgb(245, 245, 245);
+  font-size: 20px;
+  line-height: 1;
+}
+
+.navbar .nav-link.active {
+  color: rgb(245, 245, 245);
+  opacity: 1;
+}
+
+.nav-link:hover {
+  color: rgb(245, 245, 245);
+  opacity: 1;
+}
