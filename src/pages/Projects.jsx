@@ -1,3 +1,5 @@
+import ProjectsData from "../components/ProjectsData";
+
 export default function Projects() {
   return (
     <div className="Projects">
