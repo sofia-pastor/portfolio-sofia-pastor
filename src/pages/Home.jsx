@@ -39,7 +39,7 @@ export default function Home() {
             interactive, visually engaging features. I love combining creativity
             with technology to craft seamless, dynamic user experiences.
           </p>
-          <a href="about.html" className="btn btn-costumize">
+          <a href="/about" className="btn btn-costumize">
             Learn More
           </a>
         </div>
@@ -79,10 +79,7 @@ export default function Home() {
                 for a responsive, clean design, ensuring usability across
                 devices.
               </p>
-              <a
-                href="/projects.html#weather-app"
-                className="btn btn-costumize"
-              >
+              <a href="/projects#weather-app" className="btn btn-costumize">
                 See Details
               </a>
             </div>
@@ -100,10 +97,7 @@ export default function Home() {
                 integration, and Bootstrap for a responsive and user-friendly
                 design.
               </p>
-              <a
-                href="/projects.html#dictionary-app"
-                className="btn btn-costumize"
-              >
+              <a href="/projects#dictionary-app" className="btn btn-costumize">
                 See Details
               </a>
             </div>
@@ -146,7 +140,7 @@ export default function Home() {
                 ensure clean and maintainable code.
               </p>
               <a
-                href="/projects.html#betting-simulator"
+                href="/projects#betting-simulator"
                 className="btn btn-costumize"
               >
                 See Details
@@ -154,10 +148,7 @@ export default function Home() {
             </div>
           </div>
 
-          <a
-            href="/projects.html"
-            className="btn btn-costumize all-projects-btn"
-          >
+          <a href="/projects" className="btn btn-costumize all-projects-btn">
             View All Projects
           </a>
         </div>

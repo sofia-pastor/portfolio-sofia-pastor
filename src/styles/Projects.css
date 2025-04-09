@@ -1,0 +1,93 @@
+.Projects .header {
+  margin-top: 100px;
+}
+
+.Projects h1 {
+  font-size: 44px;
+  line-height: 1.5;
+}
+
+.Projects .header p {
+  color: var(--primary-color);
+  opacity: 0.8;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.Projects .projects {
+  margin: 60px auto;
+}
+
+.Projects .card {
+  border-color: var(--secondary-color);
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Projects .card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.Projects h4 {
+  margin: 15px 0 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.Projects .card-text {
+  line-height: 1.6;
+}
+
+.Projects .tech {
+  font-weight: 600;
+  font-style: italic;
+  color: var(--primary-color);
+  opacity: 0.9;
+  margin-top: 40px;
+}
+
+.Projects .card-footer a {
+  color: var(--accent-color);
+  font-weight: 500;
+  text-decoration: underline;
+  transition: all 300ms ease-in-out;
+  filter: brightness(0.9);
+}
+
+.Projects .card-footer a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.Projects h5 {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+.Projects .github-icon {
+  color: var(--accent-color);
+  background-color: var(--primary-color);
+  font-size: 50px;
+  padding: 30px;
+  border-radius: 60px;
+  box-shadow: 3px 3px 5px var(--primary-color);
+  transition: all ease-in-out 300ms;
+}
+
+.Projects .github-icon:hover {
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+  .Projects h5 {
+    margin-top: 50px;
+  }
+
+  .Projects .github-icon {
+    margin-bottom: 15px;
+  }
+}

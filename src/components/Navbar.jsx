@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 
 import "../styles/Navbar.css";
@@ -5,11 +6,22 @@ import "../styles/Navbar.css";
 export default function Navbar() {
   const location = useLocation();
 
-  function handleScrollIfSamePath(path) {
-    if (location.pathname === path) {
-      window.scrollTo({ top: 0, behavior: "smooth" });
+  useEffect(() => {
+    function handleScroll() {
+      const navbarCollapse = document.querySelector(".navbar-collapse");
+      const navbarToggler = document.querySelector(".navbar-toggler");
+
+      if (navbarCollapse?.classList.contains("show")) {
+        // Fecha o menu
+        navbarCollapse.classList.remove("show");
+        navbarToggler.classList.add("collapsed");
+        navbarToggler.setAttribute("aria-expanded", "false");
+      }
     }
-  }
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   function contactLink() {
     if (location.pathname === "/about") {

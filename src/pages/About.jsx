@@ -28,7 +28,7 @@ export default function About() {
           <h1>About Me</h1>
           <div className="bio">
             <div className="row align-items-center g-4 justify-content-center">
-              <div className="col-12 col-lg-6 order-1 order-lg-0">
+              <div className="col-lg-6">
                 <h2>Bio</h2>
                 <p>
                   Hello! I’m Sofia Pastor, a Junior Front-End Developer based in
@@ -64,12 +64,8 @@ export default function About() {
                 </p>
                 <p>Let’s connect and create something impactful together!</p>
               </div>
-              <div className="col-12 col-md-6 order-0 order-md-1">
-                <img
-                  src={profilePhoto}
-                  className="profile-img mt-5"
-                  alt="Profile"
-                />
+              <div className="col-lg-6">
+                <img src={profilePhoto} className="profile-img" alt="Profile" />
               </div>
             </div>
           </div>

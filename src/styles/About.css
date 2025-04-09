@@ -2,6 +2,10 @@
   margin-top: 120px;
 }
 
+.About h2 {
+  color: var(--primary-color);
+}
+
 .About .profile-img {
   max-width: 400px;
   border-radius: 100px;
@@ -35,6 +39,7 @@ li {
   opacity: 0.9;
   line-height: 2;
   color: var(--primary-color);
+  font-size: 18px;
 }
 .skills-list {
   padding: 0;
@@ -78,6 +83,10 @@ li {
 }
 
 .About .contact h2 {
+  color: var(--heading-color);
+}
+
+.About .contact h2 {
   margin: 60px 0 10px;
 }
 
@@ -117,4 +126,21 @@ li {
 
 .About .contact a:hover {
   color: var(--primary-color);
+}
+
+@media (max-width: 992px) {
+  .About .profile-img {
+    max-width: 350px;
+  }
+
+  .About h1 {
+    margin-bottom: 0;
+  }
+  .About .bio {
+    margin-top: 0;
+  }
+
+  .About section h2 {
+    margin-top: 30px;
+  }
 }
