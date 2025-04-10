@@ -96,7 +96,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="nav-link"
             >
-              Resume
+              CV
             </a>
           </div>
         </div>

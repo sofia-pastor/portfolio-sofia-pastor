@@ -65,14 +65,14 @@ export default function About() {
                 <p>Let’s connect and create something impactful together!</p>
                 <br />{" "}
                 <p>
-                  You can also{" "}
+                  You can also view my{" "}
                   <a
                     href="/cv-sofia-pastor.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cv-link"
                   >
-                    view my CV here
+                    CV here
                   </a>
                   .
                 </p>
