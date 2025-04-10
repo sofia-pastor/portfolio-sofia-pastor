@@ -63,6 +63,19 @@ export default function About() {
                   contribute, and build meaningful digital products.
                 </p>
                 <p>Let’s connect and create something impactful together!</p>
+                <br />{" "}
+                <p>
+                  You can also{" "}
+                  <a
+                    href="/cv-sofia-pastor.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cv-link"
+                  >
+                    view my CV here
+                  </a>
+                  .
+                </p>
               </div>
               <div className="col-lg-6">
                 <img src={profilePhoto} className="profile-img" alt="Profile" />

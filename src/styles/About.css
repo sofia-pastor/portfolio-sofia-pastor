@@ -24,6 +24,17 @@
   margin-bottom: 20px;
 }
 
+.cv-link {
+  color: var(--primary-color);
+  transition: all 200ms ease-in-out;
+}
+
+.cv-link:hover {
+  color: var(--accent-color);
+  filter: brightness(0.95);
+  text-decoration: none;
+}
+
 .skills-heading,
 .contact {
   margin: 70px 0 30px;

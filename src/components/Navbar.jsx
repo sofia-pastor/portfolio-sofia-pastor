@@ -89,6 +89,15 @@ export default function Navbar() {
             </NavLink>
 
             {contactLink()}
+
+            <a
+              href="/cv-sofia-pastor.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-link"
+            >
+              Resume
+            </a>
           </div>
         </div>
       </div>
